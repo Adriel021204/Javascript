@@ -9,3 +9,8 @@ let firstName = 'Adriel';     //Camel convention
 let LastName = 'Fernandes';  //Pascal convention
 
 console.log(firstName,LastName);
+
+var firstN = 'Adriel';
+var LastN = 'Fernandes';
+
+console.log(firstN,LastN);

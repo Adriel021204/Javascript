@@ -1,5 +1,10 @@
 console.log('Hellow World!');  
 
-let name = 'Adriel';  //"" quotes can be use but
-console.log(name);   // '' quotes are preferred in js
+var name = 'adriel';
+console.log(name);
 
+let namebe = 'Adriel';
+console.log(name);
+
+/*"" quotes can be use but
+'' quotes are preferred in js*/

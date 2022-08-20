@@ -5,4 +5,4 @@ console.log(pi);
 // const values do not change unlike var in js
 const interestRate = 0.5;
 interestRate = 1;
-console.log(interestRate);
+console.log(interestRate); 

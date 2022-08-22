@@ -3,7 +3,7 @@ console.log(selectedColors);
 
 
 let sC = ['red','blue'];
-console.log(selectedColors[0]);               //array is a data structure used to represent some data iems
+console.log(selectedColors[0]);             //array is a data structure used to represent some data iems
 
 let colors= ['red','blue'];
 colors[2] = 'green';

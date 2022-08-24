@@ -8,5 +8,5 @@
  *  \f form feed
  **/
 
-var myStr = "firstLine\n\t\\secondLine\n thirdLine";
+var myStr = 'firstLine\n\t\\secondLine\n thirdLine';
 console.log(myStr);

@@ -13,8 +13,6 @@ a += 2;
 b += 4;
 c += 8;
 
-
-
 //multiplication/
 var a = 1;
 var b = 2;

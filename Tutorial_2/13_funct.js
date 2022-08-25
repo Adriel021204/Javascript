@@ -9,7 +9,7 @@ function newFunction() {
 newFunction();
 
 //Passing funct with args//
-function ourFunctionWithArgs() {
+function ourFunctionWithArgs(a, b) {
     console.log(a - b);
 }
 ourFunctionWithArgs(10, 5);   // output: 5

@@ -30,7 +30,7 @@ var ourData = ourArray[3][0][2];
 console.log(ourData);
 
 //Push @ Pop
-//push an element/array inside an array//
+//push an element/array in the start of an array//
 var ourArray = ['Carlton', 30, 'M'] ;
 ourArray.push(['hardworking', 'technology']);
 console.log(ourArray);
@@ -53,14 +53,27 @@ console.log(myArray);
 console.log(removedFromMyArray);
 
 //Shift @ Unshift
-//shift usedt to remove first element of and array//
+//shift used to remove first element of an array//
 var ourArray = ['Stimpson', 'S', ['dog']];
 var removedFromOurArray = ourArray.shift();
 console.log(ourArray);
 console.log(removedFromOurArray);
-//ans: ourArray = ['S', ['dog']] removedFromOurArray = ['Stimpson']
 
 var myArray = [['Bob', 30], ['parrot', 2]];
 var removedFromMyArray = myArray.shift();
 console.log(myArray);
 console.log(removedFromMyArray);
+
+//unshift used to add element at the start of an array//
+var ourArray = ['Bob', 'B', 'hedgehog'];
+ourArray.shift();
+ourArray.unshift('Bobby');
+console.log(ourArray);
+
+var myArray = [['Stimpson', 22], ['mice', 5]];
+myArray.shift();
+myArray.unshift(['Stark', 45]);
+console.log(myArray)
+
+//Array of arrays(shopping list)//
+var mylist = [['cereal', 3], ['milk', 2], ['bananas', 6], ['juice', 1], ['eggs', 12]];

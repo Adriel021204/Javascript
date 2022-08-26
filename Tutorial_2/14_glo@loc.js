@@ -3,6 +3,7 @@ var myGlobal = 10;       //scope refers to visiblilty of variables
 function funct1() {     //variables defined out of function block have global scope.
     oopsGlobal = 5;    //global scope means they can be seen everywhere in our js code.
 }
+
 function funct2() {
     var output = '';
     if(typeof myGlobal != 'udefined') {

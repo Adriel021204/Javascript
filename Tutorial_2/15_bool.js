@@ -1,0 +1,3 @@
+function welcomeBooleans() {
+    return false;
+}

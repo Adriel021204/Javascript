@@ -9,5 +9,5 @@ function welcomeBooleans() {
 //funct retrun true when value is correct//
 
 function welcomeBooleans() {
-    return ftrue;     
+    return true;     
 }

@@ -6,7 +6,7 @@
  comment*/
 
  /*
-Data ypes in js
+Data types in js
 string,number,null,boolean,undefined,object,symbol
 */
 

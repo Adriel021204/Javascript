@@ -13,7 +13,22 @@ a += 2;
 b += 4;
 c += 8;
 
-//multiplication/
+//subtraction//
+var a = 1;
+var b = 2;
+var c = 4;
+
+/*
+a = a - 2;
+b = b - 4;
+c = c - 8;
+*/
+
+a -= 2;
+b -= 4;
+c -= 8;
+
+//multiplication//
 var a = 1;
 var b = 2;
 var c = 4;

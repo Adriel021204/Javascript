@@ -1,5 +1,5 @@
 //Arrays//
-var myArray =  ['Adriel', 17];
+var myArray = ['Adriel', 17];
 console.log(myArray);
 
 var hisArray = ['Arslaan, 05'];

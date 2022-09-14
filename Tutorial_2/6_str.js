@@ -8,10 +8,10 @@ console.log(myStr);
 //using single quotes without \//
 
 //var ourStr = "I am a \"double quoted\" string inside \"double quotes";
-var ourStr = 'I am a "double quoted" string inside "double quotes';
+var ourStr = 'I am a "double quoted" string inside "double quotes"';
 console.log(ourStr);
 
 //using backticks//
 //var weStr = 'I am a "double quoted" string inside "double quotes';
-var weStr = `'I am a "double quoted" string inside "double quotes'`;
+var weStr = `'I am a "double quoted" string inside "double quotes"'`;
 console.log(weStr);

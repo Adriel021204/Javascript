@@ -5,15 +5,15 @@ function golfScore(parent, strokes) {
     }else if (strokes <=par - 2) {
         return name[1]
     }else if (strokes == par - 1) {
-        return name[2]
+        return names[2]
     }else if (strokes == par) {
-        return name[3]
+        return names[3]
     }else if (strokes == par + 1) {
-        return name[4]
+        return names[4]
     }else if (strokes == par + 2) {
-    return name[5]
+    return names[5]
     }else if (strokes == par + 3) {
-    return name[6]
+    return names[6]
     }
     return 'Change Me';
 }

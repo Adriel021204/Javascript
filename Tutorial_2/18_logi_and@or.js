@@ -54,3 +54,11 @@ function testLogicalAnd(val) {
      return "No";
 }
 console.log(testLogicalAnd(10));
+
+//Logical Or//
+function testLogicalOr(val){
+    if (val < 10 || val < 20) {
+        return 'Outside';
+    }
+    return 'Inside';
+}

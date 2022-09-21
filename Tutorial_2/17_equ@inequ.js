@@ -1,4 +1,4 @@
-//Euality Operator//
+//Equality Operator//
 function testEqual(val) {
     if (val == 12) {
         return "Equal";

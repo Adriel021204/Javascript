@@ -16,4 +16,5 @@ function golfScore(par, strokes) {
     return names[6]
     }
 }
-console.log(golfScore(5, 4));  //change values to get different ans//
+console.log(golfScore(5, 4));  
+//change values to get different ans//

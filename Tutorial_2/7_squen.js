@@ -1,4 +1,5 @@
 /**
+ * 
  *  \' single quote
  *  \" double quote
  *  \\ backslash
@@ -6,6 +7,7 @@
  *  \t tab
  *  \b backspace
  *  \f form feed
+ * 
  **/
 
 var myStr = 'firstLine\n\t\\secondLine\n thirdLine';

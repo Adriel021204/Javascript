@@ -1,4 +1,5 @@
 //Decimal nos//
+
 var decino1 = 1.1;
 var decino2 = 0.0001;
 console.log(decino1,decino2);

@@ -63,3 +63,37 @@ function sequentialsSizes(val) {
 return answer;
 }
 console.log(sequentialsSizes());
+
+//replacing if else statement with switch//
+function ifElseToSwitch(val) {
+    var answer = '';
+ /*
+  if (val === 'bob') {
+    answer = 'Handsome';
+} else if (val === 42) {
+    answer = 'Digits';
+} else if (val === 1) {
+    answer = 'I am #1 in the world!';
+} else if (val === 'pop') {
+    answer = "He is my dad also called pop's";
+}
+return answer;
+}
+console.log(ifElseToSwitch(1));
+*/
+switch(val) {
+    case 'bob':
+        answer = 'Handsome';
+        break;
+    case 42:
+        answer = 'Digits';
+        break;
+    case 1:
+        answer = 'I am #1 in the world!';
+        break;
+    case 'pop':
+        answer = "He is my dad also called pop's";
+        break;
+}
+}
+console.log(ifElseToSwitch(pop));
